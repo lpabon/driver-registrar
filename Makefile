@@ -15,7 +15,7 @@
 .PHONY: all driver-registrar clean test
 
 IMAGE_NAME=quay.io/k8scsi/driver-registrar
-IMAGE_VERSION=canary
+IMAGE_VERSION=v0.2.0
 
 ifdef V
 TESTARGS = -v -args -alsologtostderr -v 5
